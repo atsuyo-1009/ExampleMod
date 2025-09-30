@@ -50,6 +50,6 @@ requirements: [
   copper/ 3 # 研究材料
 ]
 }
-requirements: [
-copper/ 10 # 建材
+requirements: [ # 建材
+copper/ 10
 ]　
