@@ -4,7 +4,7 @@ description:
   type: itemTurret　
 category: turret
 size: 1
-  health:100　 
+  health: 100　 
   targetable: true # 不明　
   squareSprites: false # 不明　
   targetAir: false # 対空するか
