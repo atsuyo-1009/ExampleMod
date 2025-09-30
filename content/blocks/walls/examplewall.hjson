@@ -17,6 +17,6 @@ alwaysUnlocked:true # 研究せずそのまま使えるか
 research: {
   parent: largecopperwall # 研究するときの親となるもの
 requiments: [
-sand/10 # 建材
+sand/10 #建材
 ]
 }
