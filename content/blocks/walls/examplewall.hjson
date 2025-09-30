@@ -1,4 +1,4 @@
-name: 〇〇 # 日本語でOK
+name: examplewall # 日本語でOK
 description: "説明"
 type: Wall
 health: 800 # 体力
