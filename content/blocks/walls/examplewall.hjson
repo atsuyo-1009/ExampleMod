@@ -12,7 +12,7 @@ requirements: [
 sand/40　
 ]
 category: defense
- #  敵が通れなくなるかどうか 
+ # 敵が通れなくなるかどうか 
 solid: false 
 # 味方が通りやすくなるか
 teamPassable: true 
