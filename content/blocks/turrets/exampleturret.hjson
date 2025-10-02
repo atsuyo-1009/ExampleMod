@@ -1,55 +1,88 @@
-name:exampleturret #日本語でOK
+#日本語でOK
+name:exampleturret 
 description: 
 "説明"
 type: itemTurret　
 category: turret
 size: 1
 health: 100
-targetable: true # 不明　
-squareSprites: false # 不明　
-targetAir: false # 対空するか
-hasPower: false # 電気をつかうか
-hasLiquid: true # 液体を使うか
-liquidCapacity: 50 # 液体のキャパシティ
-itemCapacity: 50 # アイテムのキャパシティ
-hasItem: true # アイテムを使うか
-reload: 5 # 連射力
-chargeTime: 0 # おそらくレーザー系 
-range: 160 # 有効射程
-recoil: 0.5 # ブレ
-inaccuracy: 2 # ブレ
-xRand: 0 # 拡散力
+# 不明　
+targetable: true 
+# 不明
+squareSprites: false
+# 対空するか
+targetAir: false
+# 電気をつかうか
+hasPower: false 
+# 液体を使うか
+hasLiquid: true 
+# 液体のキャパシティ
+liquidCapacity: 50
+# アイテムのキャパシティ
+itemCapacity: 50
+# アイテムを使うか
+hasItem: true
+# 連射力
+reload: 5 
+# おそらくレーザー系 
+chargeTime: 0
+# 有効射程
+range: 160 
+# ブレ
+recoil: 0.5 
+# ブレ
+inaccuracy: 2
+# 拡散力
+xRand: 0 
 ammoTypes: 
 {
-copper: { # copperのとこは好きなアイテムでいい　作ったアイテムでも
+# copperのとこは好きなアイテムでいい　作ったアイテムでも
+copper: {
 type: basicBulletType　
-width: 5 # 弾のサイズ？
-drawsize: 3 #　弾のサイズ？ 
-hitSize: 3 # 当たったときのサイズ
-bulletSprite:多分弾のスプライト
+# 弾のサイズ？
+width: 5 
+#　弾のサイズ？ 
+drawsize: 3
+# 当たったときのサイズ
+hitSize: 3
+# 多分弾のスプライト
+# bulletSprite:
 frontColor: 653200　
 backColor: 653200
 ammoMultiPlier: 10
 reloadMultiPlier: 10
-lifetime: 80　# 弾が生存する時間
-speed: 2　# 球のスピードlifetime×speed÷8で射程
-weaveMag: 0 # どんだけ曲がるか
-weaveScale: 0 # 曲がる数
-bulletShrink: 0 # 不明
-damage: 300 #ダメージ 
+# 弾が生存する時間
+lifetime: 80
+# 球のスピードlifetime×speed÷8で射程
+speed: 2　
+# どんだけ曲がるか
+weaveMag: 0 
+# 曲がる数
+weaveScale: 0 
+# 不明
+bulletShrink: 0
+# ダメージ 
+damage: 300 
 hitEffect: none
-absorbable: true # 不明
-pierceArmor: false # アーマーを貫通するか
+# 不明
+absorbable: true 
+# アーマーを貫通するか
+pierceArmor: false 
 }
 }
-BuildVisibillity: shown # 建築するときに見えるか
-buildTime: 80 # 建築時間
+# 建築するときに見えるか
+BuildVisibillity: shown
+# 建築時間
+buildTime: 80 
 research: {
-parent: duo # 研究児の親となるもの
+# 研究時の親となるもの
+parent: duo
 requirements: [
-copper/ 3 # 研究材料
+# 研究材料
+copper/ 3 
 ]
 }
-requirements: [ # 建材
+# 建材
+requirements: [ 
 copper/ 10
 ]
