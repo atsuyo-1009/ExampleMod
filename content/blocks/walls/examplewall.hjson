@@ -1,22 +1,33 @@
-name: examplewall # 日本語でOK
+# 日本語でOK
+name: examplewall 
 description: "説明"
 type: Wall
-health: 800 # 体力
+# 体力
+health: 800 
 size: 1
-armor: 100 # アーマー(？)
+# アーマー(？)
+armor: 100 
 requirements: [
-   sand/40　# 建材
+# 建材   
+sand/40　
 ]
 category: defense
-solid: false #  敵が通れなくなるかどうか  
-teamPassable: true # 味方が通りやすくなるか
-absorbLasers: false # レーザーを吸収するか
-buildVisibillity:shown # 建築するときに見えるか
-alwaysUnlocked:true # 研究せずそのまま使えるか
+ #  敵が通れなくなるかどうか 
+solid: false 
+# 味方が通りやすくなるか
+teamPassable: true 
+# レーザーを吸収するか
+absorbLasers: false 
+# 建築するときに見えるか
+buildVisibillity:shown
+# 研究せずそのまま使えるか
+alwaysUnlocked:true 
 
 research: {
-  parent: largecopperwall # 研究するときの親となるもの
-requiments: [ 
+  parent: largecopperwall
+ # 研究するときの親となるもの
+requiments: [
+# 研究材料
 sand/10 
 ]
 }
